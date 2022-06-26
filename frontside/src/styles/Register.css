@@ -1,0 +1,130 @@
+.register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin:20vh auto;
+    height:60vh;
+    width:60vw;
+    max-width:100%; */
+    
+}
+.register-small{
+padding:.5rem;
+}
+.register-small a{
+    color: rgb(1, 116, 116);
+}
+.register-container{
+    margin-top:1.7rem;
+    background: #fff;
+    padding:1rem 3rem;
+    border-radius:10px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0px rgba(34, 34, 34, 0.2) !important;
+}
+.register-header{
+    font-size:2rem;
+    text-align:center;
+    color: var(--text-color);
+    
+}
+.register-subheader{
+    font-size:1.4rem;
+    text-align: center;
+    color: var(--text-color);
+    text-transform: uppercase;
+}
+
+.register-dataform{
+    
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.register-dataformemail{
+    
+padding:14px .3rem;
+margin:.5rem 0;
+border-radius:3px;
+outline:none;
+
+width: auto;
+border: none;
+color:#000;
+background-color:#fff;
+box-shadow: 0 4px 8px 0px rgba(34, 34, 34, 0.2) !important;
+}
+
+.register-dataformpass{
+    width:100%;
+    padding:14px .3rem;
+    margin:.5rem 0;
+    
+    width:auto;
+    border-radius:3px;
+    outline:none;
+    border: none;
+    color:#000;
+    background-color:#fff;
+    box-shadow: 0 4px 8px 0px rgba(34, 34, 34, 0.2) !important;
+}
+
+.register-dataformbtn{
+
+padding:.3rem;
+border-radius:3px;
+background-color:darkcyan;
+margin:.5rem auto;
+width:50%;
+height:2.5rem;
+outline:none;
+border: none;
+color: #fff;
+}
+.register-dataformselect{
+    
+    padding:14px .3rem;
+    margin:.5rem 0;
+    width:100%;
+    border-radius:3px;
+    outline:none;
+    border: none;
+    color:gray;
+    background-color:#fff;
+    box-shadow: 0 4px 8px 0px rgba(34, 34, 34, 0.2) !important;
+}
+.register-showpass{
+    position:fixed;
+    top:53%;
+    left:57%;
+    background-color:var(--bg-color);
+    padding:2px;
+    border-radius:2px;
+    color:#000;
+    vertical-align: middle;
+    cursor: pointer;
+    }
+
+.register-showcfpass{
+        position:fixed;
+        top:62%;
+        left:57%;
+        background-color:darkcyan;
+        padding:2px;
+        border-radius:2px;
+        vertical-align: middle;
+        cursor: pointer;
+        color:#000;
+        
+        }
+        input::placeholder{
+            padding-left: 10px;
+          margin: 10px 0;
+        }
+        select::placeholder{
+            padding-left: 10px;
+          margin: 10px 0;
+        }

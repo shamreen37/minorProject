@@ -1,0 +1,225 @@
+.messages{
+    width: 1000px;
+    max-width: 100%;
+    margin: 1rem auto;
+    display: flex;
+    box-shadow: 0 4px 8px 0px rgba(34, 34, 34, 0.2) !important;
+    height: 100vh;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.messagesleftside{
+    padding:1rem .5rem;
+    border-radius: 20px 0 0 20px;
+    overflow-y: auto;
+    min-width: fit-content;
+    border-right: 1.5px solid rgba(128, 128, 128, 0.22);
+}
+
+
+.messagesrightside{
+    width:100%;
+    border-radius: 0 20px 20px 0;
+    padding:1rem .5rem;
+}
+
+.leftsidecontent{
+   
+}
+.leftsidecontentsearch{
+    display: flex;
+    background-color: #fff;
+    padding:5px;
+   
+    width: 260px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0px rgba(34, 34, 34, 0.2) !important;
+    margin-top: 10px;
+    
+}
+
+.leftsidecontentuserlist{
+    
+    margin: .2rem 0;
+    border-radius: 10px;
+    
+}
+.leftsidecontentsearchinput{
+outline:none;
+background-color: transparent;
+font-size: 16px;
+height: 38px;
+color: #000;
+padding-left: 0px;
+}
+
+.leftsidecontentsearchbutton{
+    background-color: darkcyan;
+    border-radius: 9px;
+    border:2px solid transparent;
+    cursor: pointer;
+padding: 0 10px;
+color: #fff;
+}
+
+.Rightsidecontent{
+    display: flex;
+    flex-direction: column;
+}
+
+.rightsidecontentinput{
+    
+    background-color: #fff;
+    display: flex;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top:10px;
+    box-shadow: 0 4px 8px 0px rgba(34, 34, 34, 0.3) !important;
+   color: #000 !important;
+}
+
+.rightsidecontentmessages{
+   
+    padding:10px;
+    margin: 10px 0;
+    border-radius: 20px;
+    
+    
+}
+
+.rightsidecontentmessages-chatbox{
+    height: 60vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.rightsidecontentmessagesours{
+    background-color: darkcyan;
+    border: none;
+    padding:10px;
+    margin: 10px 5px;
+    border-radius: 20px;
+    align-self: flex-end;
+   
+    width: 200px;
+    
+  
+}
+
+.rightsidecontentmessagesother{
+    border: none;
+    padding:10px;
+    margin: 10px 5px;
+    border-radius: 20px;
+    background-color: #fff;
+    align-self: flex-start;
+    box-shadow: 0 4px 8px 0px rgba(34, 34, 34, 0.2) !important;
+    width: 200px;
+ 
+    
+    
+}
+.rightsidecontentinputtext{
+    outline: none;
+    font-size: medium;
+    font-weight: 400;
+   color: #000;
+}
+
+.rightsidecontentinputbtn{
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+
+}
+
+.msgdisplayinfouser{
+    display:flex;
+    align-items: center;
+}
+
+.msgdisplayinfouseravatar{
+    height: 25px;
+    width:20px;
+    object-fit: cover;
+    padding:1px;
+    border:none;
+    border-radius: 75px 0 0 25px;
+}
+
+.msgdisplayinfouseravatartwo{
+    height: 25px;
+    width:20px;
+    object-fit: cover;
+    padding:1px;
+    border:none;
+    border-radius: 0px 75px 25px 0px;
+}
+
+.msgdisplayinfouserusername{
+    margin-left:10px;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    word-spacing: 1.3px;
+    color:#000;
+}
+
+.msgdisplayinfocontent{
+    background-color:#fff;
+    padding:10px;
+    font-size: 13px;
+    margin-top: 2px;
+    border-radius: 20px 0 20px 0px;
+    color:#000;
+    word-wrap: break-word;
+    box-shadow: 0 4px 8px 0px rgba(34, 34, 34, 0.2) !important;
+}
+
+.msgdisplayinfousertime{
+    font-size: 10px;
+    font-weight: 600;
+    color: #fff;
+}
+.rightsidecontentinputmsg-mediadivitem{
+    position:relative;
+    margin:10px;
+    
+}
+
+img.statusmsg-middleimages,
+video.statusmsg-middleimages{
+ width:60px;
+ height:30px;
+ object-fit:cover;
+ padding:5px;
+ margin:5px;
+ border:2px solid gray;
+ border-radius:4px;
+}
+.rightsidecontentinputmsg-mediadiv{
+    margin-top: 5px;
+    max-height: 90px;
+    overflow: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(100px,1fr));
+    margin:5px;
+    background-color: rgb(214, 214, 214);
+}
+.rightsidecontentinputmsg-mediadivitemdelete{
+    position:absolute;
+    top:-5%;
+    left:2%;
+    opacity: 0;;
+    color:rgb(161, 26, 53);
+    font-size: 20px;
+   font-weight: bolder;
+   vertical-align: middle;
+   transform: translateY(-5px);
+   cursor: pointer;
+}
+.rightsidecontentinputmsg-mediadivitem:hover span{
+    opacity: 1;;
+}

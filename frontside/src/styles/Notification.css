@@ -1,0 +1,78 @@
+.notifications{
+    background-color: #fff;
+    width:700px;
+    max-width:100%;
+    margin: 1rem auto;
+    padding: 0.7rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0px rgba(34, 34, 34, 0.2) !important;
+}
+
+.notificationheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem;
+    border-bottom: 2px solid gray;
+}
+
+.notificationheaderheding{
+    font-size: 1.0rem;
+    color:teal;
+    font-weight: 600;
+}
+
+.notificationdata{
+   padding:0.2rem;
+  
+   
+}
+.notificationdata:not(:last-child){
+    border-bottom: 1.5px solid rgba(128, 128, 128, 0.19);
+}
+.notificationdata-top{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.notificationdata-topavatar{
+    width:50px;
+    height: 50px;
+   border-radius: 50%;
+   padding:3px;
+    object-fit:cover
+}
+
+.notificationdata-topimage{
+    width:45px;
+    height: 45px;
+    object-fit:cover;
+    padding:3px;
+  outline: none;
+}
+
+.notificationdata-topsecondhead{
+    color:teal;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.notificationdata-topsecondheadtwo{
+    font-size: 15px;
+    font-weight: 500;
+    color:darkgray;
+}
+
+.notificationdatabottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:.5rem;
+}
+
+.notificationdatabottomdate{
+    font-size: 10px;;
+    font-weight: 300;
+    color: #000;
+}

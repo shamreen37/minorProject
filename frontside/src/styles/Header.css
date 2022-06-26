@@ -1,0 +1,81 @@
+.header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background:gray;
+    width:100vw;
+    color: #fff !important;
+    max-width:100%;
+    margin:0 auto;
+    height:10vh;
+    position: sticky;
+    top:0;
+    z-index: 4;
+    padding: 10px 0px;
+}
+.header-right{
+    padding-left: 15px;
+}
+
+.header-center{
+
+    background-color:rgb(255, 255, 255);
+    border-radius: 5px;
+    flex:0.7;
+    position: relative;
+
+
+}
+.headerIcon{
+color: #fff;
+}
+.active{
+    color:'white';
+}
+.header-center input{
+    background: transparent;
+    outline:none;
+    width: 100%;
+    padding:1rem;
+    border:none;
+    color: black;
+    border-radius: 5px;
+}
+.header-center .MuiSvgIcon-root{
+    margin-right:.5rem;
+    position: absolute;
+    top:20%;
+    right:2%;
+    color:black;
+
+}
+.header-centersearchclose{
+    position:absolute;
+    top:2%;
+    right:10%;
+    color:white;
+    cursor: pointer;
+    font-size: 1.5rem;
+
+}
+.header-searchusers{
+    margin-top: 5px;
+    position: absolute;
+    background: darkcyan;
+    width:100%;
+}
+.header-left{
+    display:flex;
+    padding-right: 15px;
+}
+.header-left .MuiSvgIcon-root{
+    margin-right: 0.8rem;
+}
+.header-left .active{
+   background-color:'white';
+}
+.header-leftAvatar{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
